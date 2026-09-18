@@ -1,0 +1,230 @@
+[33mcommit f6ffd339138a379107aaa4d51bcf330113a6a76b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: navneetsinghsingh <navneetsingh023@gmail.com>
+Date:   Fri Sep 18 07:54:38 2026 +0530
+
+    i have created a test file
+
+[1mdiff --git a/first.ipynb b/first.ipynb[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2884ac4[m
+[1m--- /dev/null[m
+[1m+++ b/first.ipynb[m
+[36m@@ -0,0 +1,850 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m "cells": [[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "id": "bdeddb37",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "#Agenda for  today\n",[m
+[32m+[m[32m    "#1> operators\n",[m
+[32m+[m[32m    "#2> Types of operators\n",[m
+[32m+[m[32m    "#1> Arithmetic\n",[m
+[32m+[m[32m    "#2> relational\n",[m
+[32m+[m[32m    "#3> Logical\n",[m
+[32m+[m[32m    "#4> Bitwise\n",[m
+[32m+[m[32m    "#5>Assignment operators\n",[m
+[32m+[m[32m    "#   6> special operatoers\n",[m
+[32m+[m[32m    "#Operator is a symbol that performs certain operations.\n"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "id": "54208baa",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "#1> Arithmetic operators\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "-\t\n",[m
+[32m+[m[32m    "#1>\t+ -> Addition\n",[m
+[32m+[m[32m    "#2>\t- -> Subtraction\n",[m
+[32m+[m[32m    "#3>\tMultiplication\n",[m
+[32m+[m[32m    "#4>\tDivision Operator\n",[m
+[32m+[m[32m    "#5>\t% Modulo Opertors\n",[m
+[32m+[m[32m    "#6>\t// Floor Division Opertors\n",[m
+[32m+[m[32m    "#7>\t** -> Exponent Opertors or power Opertors\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "#a = 10\n",[m
+[32m+[m[32m    "#b = 2\n",[m
+[32m+[m[32m    "#print('a+b=',a+b)\n",[m
+[32m+[m[32m    "#print('a-b=',a-b)\n",[m
+[32m+[m[32m    "#print('a*b='a*b)\n",[m
+[32m+[m[32m    "#print('a/b=',a/b)\n",[m
+[32m+[m[32m    "#print('a//b=',a//b)\n",[m
+[32m+[m[32m    "#print('a%b='a%b)\n",[m
+[32m+[m[32m    "#print('a**b=',a**b)\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "#a= 10.5\n",[m
+[32m+[m[32m    "#b = 2\n",[m
+[32m+[m[32m    "#a+b = 12.5\n",[m
+[32m+[m[32m    "#a*b = 21.0\n",[m
+[32m+[m[32m    "#a/b = 5.25\n",[m
+[32m+[m[32m    "#a//b = 5.0\n",[m
+[32m+[m[32m    "#a%b = 0.5\n",[m
+[32m+[m[32m    "#a**b= 110.25\n",[m
+[32m+[m[32m    "\n"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 12,[m
+[32m+[m[32m   "id": "20c2c94c",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "name": "stdout",[m
+[32m+[m[32m     "output_type": "stream",[m
+[32m+[m[32m     "text": [[m
+[32m+[m[32m      "12\n",[m
+[32m+[m[32m      "8\n",[m
+[32m+[m[32m      "20\n",[m
+[32m+[m[32m      "5.0\n",[m
+[32m+[m[32m      "5\n"[m
+[32m+[m[32m     ][m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "a = 10\n",[m
+[32m+[m[32m    "b = 2\n",[m
+[32m+[m[32m    "print(a+b)\n",[m
+[32m+[m[32m    "print(a-b)\n",[m
+[32m+[m[32m    "print(a*b)\n",[m
+[32m+[m[32m    "print(a/b)\n",[m
+[32m+[m[32m    "print(a//b)\n",[m
+[32m+[m[32m    " "[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "id": "236891b2",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "#2> Relational Operators: >, >=,<,<=\n",[m
+[32m+[m[32m    "#a = 10\n",[m
+[32m+[m[32m    "#b = 20\n",[m
+[32m+[m[32m    "#print(\"a>b\",a>b)\n",[m
+[32m+[m[32m    "#print(\"a>=b is\",a>=b)\n",[m
+[32m+[m[32m    "#print(\"a<b is\",a<b)\n",[m
+[32m+[m[32m    "#print(\"a<=b is\",a<=b)\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "# a = \"durga\"\n",[m
+[32m+[m[32m    "# b = \"durga\"\n",[m
+[32m+[m[32m    "#print(\"a>b is\", a>b)\n",[m
+[32m+[m[32m    "#print(\"a>=b is\", a>=b)\n",[m
+[32m+[m[32m    "#print(\"a<b is\", a<b)\n",[m
+[32m+[m[32m    "#print(\"a<=b is\", a<=b)\n",[m
+[32m+[m[32m    "#10<20 -> True\n",[m
+[32m+[m[32m    " #10<20<30 -> True\n",[m
+[32m+[m[32m    " #10<20<30<40 -> True\n",[m
+[32m+[m[32m    " #10<20<30<40>50 -> False\n"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 16,[m
+[32m+[m[32m   "id": "afb0d89a",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "name": "stdout",[m
+[32m+[m[32m     "output_type": "stream",[m
+[32m+[m[32m     "text": [[m
+[32m+[m[32m      "True\n"[m
+[32m+[m[32m     ][m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    " a = 30\n",[m
+[32m+[m[32m    " b  = 20\n",[m
+[32m+[m[32m    "print(a>b)"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 21,[m
+[32m+[m[32m   "id": "136b16fd",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "name": "stdout",[m
+[32m+[m[32m     "output_type": "stream",[m
+[32m+[m[32m     "text": [[m
+[32m+[m[32m      "True\n",[m
+[32m+[m[32m      "True\n",[m
+[32m+[m[32m      "True\n"[m
+[32m+[m[32m     ][m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "print(10== 10)\n",[m
+[32m+[m[32m    "print(10!=5)\n",[m
+[32m+[m[32m    "print(\"durga\" == \"durga\")"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "id": "2bd66afc",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "name": "stdout",[m
+[32m+[m[32m     "output_type": "stream",[m
+[32m+[m[32m     "text": [[m
+[32m+[m[32m      "a>b is False\n",[m
+[32m+[m[32m      "a>=b is True\n",[m
+[32m+[m[32m      "a<b is False\n",[m
+[32m+[m[32m      "a<=b is True\n"[m
+[32m+[m[32m     ][m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "#Equality Opertors: ==, !=\n",[m
+[32m+[m[32m    "#>>> 10==20\n",[m
+[32m+[m[32m    "#False\n",[m
+[32m+[m[32m    "#>>> 10!= 20\n",[m
+[32m+[m[32m    "#True\n",[m
+[32m+[m[32m    "#>>>>10== True\n",[m
+[32m+[m[32m    "# 10==20== 30==40\n",[m
+[32m+[m[32m    "# 10==10==10==10"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 24,[m
+[32m+[m[32m   "id": "e58a208e",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "10"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 24,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "10 and 20\n",[m
+[32m+[m[32m    "0  and 20\n",[m
+[32m+[m[32m    "10 or 20"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 6,[m
+[32m+[m[32m   "id": "2bd9308f",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m 
